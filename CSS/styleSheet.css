@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: DidactGothic;
+  font-size: 110%;
+  color: black;
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+/*Screen / Tablet scaling*/
+@media only screen and (max-width: 1500px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+[href] {
+  color: #6667ab;
+}
+
+@font-face {
+  font-family: PoiretOne;
+  src: url("../fonts/PoiretOne-Regular.ttf");
+}
+
+.carousel-indicators li {
+  width: 3px;
+}
+
+h1 {
+  font-family: PoiretOne;
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+h2 {
+  font-family: PoiretOne;
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: DidactGothic;
+  src: url("../fonts/DidactGothic-Regular.ttf");
+}
+
+header {
+  background-color: #ccccff;
+  color: black;
+  font-size: 200%;
+  padding: 1rem;
+  font-family: Agnes, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  border-radius: 150px 0px;
+}
+
+#headshot {
+  width: auto;
+  height: auto;
+}
+
+#title {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.profileHeadshot {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  /* filter: grayscale(60%); */
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+nav {
+  color: #6667ab;
+  width: auto;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 1rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  justify-content: space-around;
+}
+
+main {
+  width: auto;
+  height: auto;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.content {
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.cards {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.skills {
+  padding: 0%;
+}
+
+.interests {
+  padding: 0%;
+}
+
+.carousel img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  main {
+    width: auto;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+footer {
+  background-color: #ccccff;
+  color: black;
+  font-size: 150%;
+  text-align: center;
+}
+
+footer h1 {
+  font-family: PoiretOne;
+}
+
+.icons {
+  width: 3rem;
+  height: auto;
+  margin: 0.3rem;
+}
+
+.icons:hover {
+  box-shadow: 0 5px 15px #6667ab;
+  border-radius: 3rem;
+}
